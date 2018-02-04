@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fauzi.ilham.milham_1202152174_modul1.layoutDua">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tempatMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_below="@id/tempatMakan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView4"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porsi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/makanan"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView6"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/porsi"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView8"
+        android:textSize="35sp"/>
+</RelativeLayout>
